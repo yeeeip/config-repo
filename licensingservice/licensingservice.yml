@@ -1,4 +1,4 @@
-example.property: "I AM IN THE DEFAULT"
+example.property: "I AM IN THE PROPERTY"
 
 spring:
   datasource:
