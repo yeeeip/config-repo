@@ -1,4 +1,4 @@
-example.property: "I AM IN THE DEFAULT"
+example.property: {cipher}5af78bfdc199a997beab496c1fd1117eb7f9c1a5469c0fa815a0a7772ebfff06c45f92819e2489def4ac2ed0ca9867ea
 
 spring:
   datasource:
