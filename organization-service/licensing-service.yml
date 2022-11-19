@@ -1,0 +1,16 @@
+example.property: "{cipher}5af78bfdc199a997beab496c1fd1117eb7f9c1a5469c0fa815a0a7772ebfff06c45f92819e2489def4ac2ed0ca9867ea"
+
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/postgres"
+    username: "postgres"
+    password: "{cipher}6965b0c22d72b517aef609603f4a613b96ba9d922b9aa0eb608cc38189bce4cc"
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: POSTGRESQL
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL95Dialect
